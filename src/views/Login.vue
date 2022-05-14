@@ -56,7 +56,7 @@
 							if (resp) {
 								window.sessionStorage.setItem("user", JSON.stringify(resp.obj));
 								this.$router.replace("/Home");
-								alert(JSON.stringify(resp))
+								// alert(JSON.stringify(resp))
 							}/* else(){
 								
 							}else(){
